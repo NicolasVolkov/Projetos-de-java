@@ -5,7 +5,7 @@ public class Matriz {
         int[][] m = new int[3][3];
         String simetrica = " é ";
         String antissimetrica = " é ";
-        System.out.println("\nNúmero de linhas: " + m.length);
+        System.out.println("Número de linhas: " + m.length);
         System.out.println("Número de colunas: " + m[0].length);
         System.out.println("Digite os valores da tabela");
         for (int i = 0; i < m.length; i++) {
@@ -15,7 +15,7 @@ public class Matriz {
             }
             System.out.println();
         }
-        System.out.println("\nMatriz:"); // a matriz é demonstrada
+        System.out.println("Matriz:"); // a matriz é demonstrada
         for (int i = 0; i < m.length; i++) {
             for (int j = 0; j < m[i].length; j++) {
                 System.out.print(m[i][j]);
